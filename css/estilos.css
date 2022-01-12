@@ -90,18 +90,22 @@ header {
   margin-top: 30px;
   margin-left: 150px;
 }
+
 .recTitulo {
   width: 60%;
-  height: 50px;
+  height: 45px;
   background-color: coral;
   text-align: center;
   border-radius: 50px;
   margin-top: 60px;
 }
-.titulo {
+.recTitulo a {
   color: #fff;
-  font-size: 24px;
+  font-size: 23px;
+  text-decoration: none;
+  list-style-type: none;
 }
+
 #botonDos {
   grid-area: botonDos;
   display: flex;
@@ -146,6 +150,10 @@ header {
   margin-top: 50px;
   margin-left: 50px;
 }
+#contNatalia p a {
+  text-decoration: none;
+  list-style-type: none;
+}
 #roxana {
   width: 50%;
   display: flex;
@@ -175,7 +183,10 @@ header {
   font-size: 20px;
   margin-top: 10px;
   margin-left: 30px;
+  text-decoration: none;
+  list-style-type: none;
 }
+
 .textoRox {
   width: 95%;
   height: auto;
@@ -184,76 +195,113 @@ header {
   font-size: 18px;
   margin-top: 10px;
   margin-left: 20px;
+  text-decoration: none;
+  list-style-type: none;
 }
 .imgRedCoaching {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 150px;
-  margin-top: 20px;
-  margin-left: 50px;
-  float: left;
+  margin-top: 80px;
+  margin-left: 80px;
 }
 #queCoach {
+  display: flex;
   width: 100%;
-  height: 200px;
+  height: 400px;
   background-color: #b4045f;
 }
 .textCoach {
   width: 95%;
   height: auto;
   text-align: inherit;
-  color: #fff;
-  font-size: 18px;
   margin-top: 10px;
   margin-left: 20px;
+}
+.tituloPrincipal {
+  font-size: 24px;
+  color: #fff;
+  float: left;
+  margin: 0;
+  margin-top: 60px;
+  margin-left: 90px;
+}
+.tituloSecundario {
+  width: 70%;
+  height: auto;
+  color: #fff;
+  font-size: 18px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 90px;
 }
 #tabla {
   display: grid;
   grid-template-areas: "tituloTabla tituloTabla" "tablaUno tablaDos" "tablaTres tablaCuatro" "tablaCinco tablaSeis";
   grid-template-columns: 50% 50%;
-  grid-template-rows: 80px 200px 200px;
+  grid-template-rows: 80px 200px 200px 200px;
 }
+#tituloTabla {
+  grid-area: tituloTabla;
+  color: black;
+  font-size: 27px;
+  margin: 0;
+  text-align: center;
+}
+
 #tablaUno {
   grid-area: tablaUno;
-  width: 100%;
-  height: 200px;
+  margin: 0;
+}
+.inTabla {
   background-color: #a4a4a4;
   border: 2px solid #b4045f;
+  color: #000;
+  text-align: center;
+
+  margin-top: 30px;
+  font-size: 24px;
 }
+.inTabla:hover {
+  background-color: #b4045f;
+  color: #fff;
+}
+.tablaTitulos:hover {
+  color: #fff;
+}
+
 #tablaDos {
   grid-area: tablaDos;
-  width: 100%;
-  height: 200px;
-  background-color: #a4a4a4;
-  border: 2px solid #b4045f;
+  margin: 0;
 }
 #tablaTres {
   grid-area: tablaTres;
-  width: 100%;
-  height: 200px;
-  background-color: #a4a4a4;
-  border: 2px solid #b4045f;
+  margin: 0;
 }
 #tablaCuatro {
   grid-area: tablaCuatro;
-  width: 100%;
-  height: 200px;
-  background-color: #a4a4a4;
-  border: 2px solid #b4045f;
+  margin: 0;
 }
 #tablaCinco {
   grid-area: tablaCinco;
-  width: 100%;
-  height: 200px;
-  background-color: #a4a4a4;
-  border: 2px solid #b4045f;
+  margin: 0;
 }
 #tablaSeis {
   grid-area: tablaSeis;
+  margin: 0;
+}
+#comoCoach {
+  display: flex;
   width: 100%;
-  height: 200px;
-  background-color: #a4a4a4;
-  border: 2px solid #b4045f;
+  height: 400px;
+}
+.tituloComo {
+  font-size: 24px;
+  color: #000;
+  float: left;
+  margin: 0;
+  margin-top: 40px;
+  margin-left: 90px;
 }
 #verMas {
   width: 150px;
@@ -261,7 +309,6 @@ header {
   background-color: cadetblue;
   border: 2px solid #fff;
 }
-
 .Emprendedor {
   top: 120px;
   font-size: 30px;
