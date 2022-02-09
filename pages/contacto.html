@@ -11,6 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/c6ca3be74f.js" crossorigin="anonymous"></script>
     <title>Integral Coaching</title>
   </head>
   <body>
@@ -27,12 +28,63 @@
       </nav>
     </header>
 
-    <section id="contacto" class="fondoSlice"></section>
-    <footer></footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<body>
+  <div id="fondoCoaching">
+  <section id="contacto">
+    <div id="zonaRedes">
+        <div id="textoRedes">Para todo tipo de consultas, puede llamarnos, contactarnos por redes o completar el siguiente formulario:</div>
+        <div id="respuesta"></div>
+        <div id="iconosRedes">
+       
+      </div>
+      <form id="formulario" action="/enviar_consulta.php" method="POST">
+        <input class="celdas" type="text" name="nombre" placeholder="Nombre" required>
+        <input class="celdas" type="text" name="apellido" placeholder="Apellido" required>
+        <input class="celdas" type="number" name="teléfono" placeholder="Teléfono" required>
+        <input class="celdas" type="email" name="email" placeholder="E-mail" required>
+        <textarea class="celdas" rows="3" name="mensaje" placeholder="Tu mensaje:" required></textarea>
+        <input id="botonEnvio" class="celdas" type="submit" style="color: #fff;" value="Enviar">
+      </form>
+    </div>
+    <div id="contactoNat">
+    <div id="fotoNatBargas"></div>
+    <div class="datosUno">
+        <p>CONTACTO NATALIA BARGAS<hr></p>
+        <p><i class="fas fa-address-card"></i>&nbsp &nbsp Natalia Bargas</p>
+        <p><a href="mailto:natalia@integralconsulting.com.ar="text-decoration: none;><i class="fas fa-envelope-square"></i></a>&nbsp &nbsp natalia@integralcoaching.com.ar</p>
+        <p><a href="https://api.whatsapp.com/send?phone=5492614999437&text=Consulta %20desde %20la %20web:" target="blank"><i class="fab fa-whatsapp-square"></i>&nbsp &nbsp +54 9 11 2604 1712</a></p>
+        <p><a href="https://www.linkedin.com/in/veronicagonzalez-b680b556" target="_blank"><i class="fab fa-linkedin"></i></a> &nbsp &nbsp PERFIL PROFESIONAL</p>
+      </div></div>
+    <div id="contactoRox">
+    <div id="fotoRoxCoronel"></div>
+    <div class="datosUno">
+        <p>CONTACTO ROXANA<hr></p>
+        <p><i class="fas fa-address-card"></i>&nbsp &nbsp Roxana Coronel</p>
+        <p><a href="mailto:roxana@integralcoaching.com.ar"style="text-decoration: none;"><i class="fas fa-envelope-square"></i></a> &nbsp &nbsp roxana@integralcoaching.com.ar</p>
+        <p><a href="https://api.whatsapp.com/send?phone=5492614999438&text=Consulta %20desde %20la %20web:" target="blank"><i class="fab fa-whatsapp-square"></i>&nbsp &nbsp +54 9 3877 54 0126</a></p>
+        <p><a href="https://www.linkedin.com/in/xavier-jordana-56856726" target="_blank"><i class="fab fa-linkedin"></i></a> &nbsp &nbsp PERFIL PROFESIONAL</p></div></div>
+    
+  </section></div>
+  <footer>
+    <p id="conecta">CONECTA:</p>
+    <div id="partOne">
+      <p id="iconoYouTube"><a href="www.integralcoaching.com.ar"><i class="fab fa-youtube-square"></i></a></p>
+      <p id="iconoface"><a href="www."><i class="fab fa-facebook-square"></i></a></p>
+      <p id="iconoInstagram"><a href="" target="blank"><i class="fab fa-instagram"></i></a></p>
+      <p><a href="mailto:info@integralcoaching.com.ar" style="text-decoration: none"><i class="fas fa-envelope-square"></i></a></p></div>
+      <div id="map">
+        <p>WEB MAP:</p>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./coaching.html">Coaching</a></li>
+          <li><a href="./vocacional.html">Nosotras</a></li>
+          <li><a href="./personal.html">Servicios</a></li>
+          <li><a href="./Contacto.html">Contacto</a></li>
+        </ul></div>
+      <div id="logoFooter"></div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+
 </html>
