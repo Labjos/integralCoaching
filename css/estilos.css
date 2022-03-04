@@ -9,12 +9,12 @@ header {
   height: 110px;
   width: 100%;
   border-bottom: 2px solid #b4045f;
-  background: white;
+  background: #000;
 }
 .logo {
-  width: 180px;
-  height: 90px;
-  background-image: url(../imagenes/logotipo.jpeg);
+  width: 200px;
+  height: 95px;
+  background-image: url(../imagenes/IsotipoIC.jpg);
   background-size: cover;
   margin-left: 50px;
 }
@@ -40,10 +40,15 @@ header {
 #menu ul li a {
   text-decoration: none;
   list-style-type: none;
-  border-left: 4px solid #b4045f;
+  border-left: 4px solid red;
   padding: 5px;
-  color: #585858;
+  color: #fff;
   font-size: 20px;
+}
+#menu ul li a:hover,
+ul li.active {
+  border-left: 4px solid #fff;
+  color: #fa760a;
 }
 .fondoSlice {
   width: 100%;
@@ -93,16 +98,20 @@ header {
 .recTitulo {
   width: 60%;
   height: 45px;
-  background-color: coral;
+  background-color: #b4045f;
   text-align: center;
   border-radius: 50px;
   margin-top: 60px;
+  padding: 3px;
 }
 .recTitulo a {
   color: #fff;
   font-size: 23px;
   text-decoration: none;
   list-style-type: none;
+}
+.recTitulo a:hover {
+  color: #f89007;
 }
 #botonDos {
   grid-area: botonDos;
@@ -159,7 +168,7 @@ header {
 #fotoRox {
   width: 150px;
   height: 250px;
-  background-image: url(../imagenes/p2.jpeg);
+  background-image: url(../imagenes/RoxanaContacto.jpeg);
   background-size: cover;
   border-radius: 50px 1px;
   margin-top: 50px;
@@ -246,21 +255,22 @@ header {
 }
 #tituloTabla {
   grid-area: tituloTabla;
-  color: black;
+  color: #ffffff;
   font-size: 27px;
+  background-color: #000;
   margin: 0;
   text-align: center;
 }
 .inTabla {
-  background-color: #a4a4a4;
-  border: 2px solid #b4045f;
-  color: #000;
+  background-color: #585858;
+  border: 2px solid #e4dadf;
+  color: #fff;
   text-align: center;
   margin-top: 30px;
   font-size: 24px;
 }
 .inTabla:hover {
-  background-color: #b4045f;
+  background-color: #f89007;
   color: #fff;
 }
 .tablaTitulos:hover {
@@ -294,10 +304,12 @@ header {
   display: flex;
   width: 100%;
   height: 400px;
+  background-color: #b4045f;
 }
 .tituloComo {
   font-size: 24px;
-  color: #000;
+  color: #ffffff;
+  background-color: #b4045f;
   float: left;
   margin: 0;
   margin-top: 40px;
@@ -434,7 +446,6 @@ header {
   margin-top: 30px;
   margin-left: 40px;
 }
-
 #prodUno {
   width: 300px;
   height: 300px;
@@ -525,8 +536,8 @@ header {
 footer {
   display: flex;
   width: 100%;
-  height: 150px;
-  background-color: #b4045f;
+  height: 180px;
+  background-color: #000;
   margin-top: 5px;
 }
 #contacto {
@@ -546,9 +557,9 @@ footer {
   width: 420px;
   height: 430px;
   background-color: #b4045f;
-  padding: 10px;
+  padding: 30px;
   margin-top: 50px;
-  margin-left: 20px;
+  margin-left: 70px;
   border: 1px solid #ffffff;
 }
 .celdas {
@@ -568,40 +579,41 @@ footer {
   margin-left: 30px;
 }
 #textoRedes {
-  width: 380px;
+  width: 450px;
   height: 50px;
-  color: #0b4780;
+  font-size: 18px;
+  color: #000;
   margin-top: 5px;
-  margin-left: 30px;
+  margin-left: 80px;
 }
 #contactoNat {
-  background-color: #d1285b80;
+  background-color: #585858e0;
   width: 350px;
-  height: 530px;
+  height: 515px;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 150px;
 }
 .datosUno {
   width: 300px;
   height: 200px;
   color: #fff;
-  font-size: 16px;
+  font-size: 17px;
   margin-top: 20px;
   margin-left: 50px;
 }
 #contactoRox {
-  background-color: #d1285b80;
+  background-color: #585858e0;
   width: 350px;
-  height: 530px;
+  height: 515px;
   margin-top: 20px;
   margin-left: 80px;
 }
-#logoFooter {
-  width: 180px;
-  height: 90px;
-  background-image: url(../imagenes/integralLogo.png);
+#footerLogo {
+  width: 300px;
+  height: 160px;
+  background-image: url(../imagenes/logoIntegralFooter.jpg);
   background-size: cover;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 #map {
   display: flex;
@@ -611,7 +623,7 @@ footer {
   width: 300px;
   height: 140px;
   margin-top: 10px;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 #map ul li {
   text-align: center;
@@ -668,7 +680,7 @@ footer {
 #fotoRoxCoronel {
   width: 100px;
   height: 200px;
-  background-image: url(../imagenes/RoxanaContacto.jpeg);
+  background-image: url(../imagenes/p2.jpeg);
   background-size: cover;
   border-radius: 50px 1px;
   margin-top: 50px;
