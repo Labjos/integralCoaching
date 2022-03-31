@@ -362,9 +362,9 @@ ul li.active {
   margin: 0;
 }
 #imagenNat {
-  width: 800px;
+  width: 1200px;
   height: 260px;
-  background-image: url(../imagenes/nataUno.jpg);
+  background-image: url(../imagenes/NataliaP1.jpg);
   background-size: cover;
   background-color: #f4b081;
   border-radius: 50px 1px;
@@ -372,7 +372,7 @@ ul li.active {
   margin-left: 60px;
 }
 #contCoachNatalia {
-  width: 120%;
+  width: 150%;
   height: 350px;
   background-color: #b4045fa9;
   border-radius: 50px 1px;
